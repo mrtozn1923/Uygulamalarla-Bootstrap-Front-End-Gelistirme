@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    background-color: blue;
+    float: left;
+}
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column{
+    float: left;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 2px;
+    background-color: green;
+}
+@media screen and (min-width:425px){
+    .container{
+        width: 100%;
+    }
+    .column{
+        width: 50%;
+    }
+}
+@media screen and (min-width:768px){
+    .container{
+        width: 100%;
+    }
+    .column{
+        width: 25%;
+    }
+}
