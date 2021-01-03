@@ -1,0 +1,20 @@
+.container{
+    background-color: blue;
+    color:white;
+    height: 200px;
+}
+.container-sm{
+    background-color: red;
+    color:white;
+    height: 200px;
+}
+.container-md{
+    background-color: green;
+    color:white;
+    height: 200px;
+}
+.container-fluid{
+    background-color: orange;
+    color:white;
+    height: 200px;
+}
