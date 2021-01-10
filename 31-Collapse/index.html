@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+<!-- https://www.w3schools.com/charsets/ref_html_entities_4.asp -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Özel Bileşenler-Collapse(Çöküş)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- <div class="row">
+            <div class="col">
+                <button class="btn btn-primary" data-toggle="collapse" data-target="#box">Toogle</button>
+                <div id="box" class="collapse">
+                    Lorem ipsum dolor sit.
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="row">
+            <div class="col">
+                <a class="btn btn-primary" data-toggle="collapse" href="#box">Toogle</a>
+                <div id="box" class="collapse">
+                    Lorem ipsum dolor sit.
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="row">
+            <div class="col">
+                <button class="btn btn-primary" data-toggle="collapse" data-target="#box">Toogle</button>
+                <div id="box" class="collapse show">
+                    Lorem ipsum dolor sit.
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="row">
+            <div class="col">
+                <button class="btn btn-primary">Toogle</button>
+                <button class="btn btn-success">Show</button>
+                <button class="btn btn-danger">Hide</button>
+                <div id="box" class="collapse">
+                    Lorem ipsum dolor sit.
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="accordion">
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#collapseOne" class="card-link" data-toggle="collapse">Eleman 1</a>
+                            </div>
+                            <div id="collapseOne" class="collapse">
+                                <div class="card-body">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi? Vel consectetur ipsam doloribus libero?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#collapseTwo" class="card-link" data-toggle="collapse">Eleman 2</a>
+                            </div>
+                            <div id="collapseTwo" class="collapse">
+                                <div class="card-body">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi? Vel consectetur ipsam doloribus libero?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#collapseThree" class="card-link" data-toggle="collapse">Eleman 3</a>
+                            </div>
+                            <div id="collapseThree" class="collapse">
+                                <div class="card-body">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi? Vel consectetur ipsam doloribus libero?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#collapseOne" class="card-link" data-toggle="collapse">Eleman 1</a>
+                            </div>
+                            <div id="collapseOne" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi? Vel consectetur ipsam doloribus libero?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#collapseTwo" class="card-link" data-toggle="collapse">Eleman 2</a>
+                            </div>
+                            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi? Vel consectetur ipsam doloribus libero?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#collapseThree" class="card-link" data-toggle="collapse">Eleman 3</a>
+                            </div>
+                            <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi? Vel consectetur ipsam doloribus libero?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
