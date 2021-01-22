@@ -1,0 +1,8 @@
+#btn-hide-modal4{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 50px;
+    margin: 0 auto;
+    z-index: 9999;
+}
