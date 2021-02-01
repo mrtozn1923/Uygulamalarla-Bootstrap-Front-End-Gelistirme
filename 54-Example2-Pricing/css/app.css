@@ -1,0 +1,18 @@
+html{
+    font-size: 14px;
+}
+@media (min-width:768px){
+    html{
+        font-size: 16px;
+    }
+}
+.container{
+    max-width: 960px;
+}
+.pricing-header{
+    max-width: 700px;
+}
+.brand{
+    color: purple;
+    font-size: 2rem;
+}
