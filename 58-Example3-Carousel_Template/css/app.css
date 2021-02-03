@@ -1,0 +1,35 @@
+.carousel{
+    margin-bottom: 3rem;
+}
+.carousel-item{
+    height: 32rem;
+}
+.carousel-item>img{
+    min-width: 100%;
+    height: 32rem;
+}
+.carousel-caption{
+    margin-bottom: 3rem;
+}
+.marketing{
+    text-align: center;
+}
+.marketing h2{
+    font-weight: 400;
+}
+.featurette-divider{
+    margin:5rem 0;
+}
+.featurette-heading{
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+.col-xl-6{
+    text-align: left;
+}
+@media (min-width:768px){
+    .featurette-heading{
+        font-size: 50px;
+    }
+}
