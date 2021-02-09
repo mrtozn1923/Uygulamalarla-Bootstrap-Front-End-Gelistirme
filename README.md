@@ -1,3 +1,10 @@
-## Uygulamalarla Sıfırdan İleri Seviyeye Bootstrap ile Front-End
+## Uygulamalarla Bootstrap Front-End Geliştirme
 
->Kurs Hazırlanmaktadır...
+[Youtube Kanalım](https://www.youtube.com/channel/UCxSgy7kAjD5r9zXMxt9DtAQ?view_as=subscriber)
+
+[Örnek Bölüm Videosu](https://www.youtube.com/watch?v=4wEJJ9nwrRc)
+![Screenshot](0-Course_Content/BootstrapCourseThumbnail.png)
+
+![Screenshot](0-Course_Content/content1.png)
+![Screenshot](0-Course_Content/content2.png)
+![Screenshot](0-Course_Content/content3.png)
