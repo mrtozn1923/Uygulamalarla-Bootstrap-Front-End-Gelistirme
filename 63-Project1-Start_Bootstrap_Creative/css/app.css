@@ -8,7 +8,7 @@ body{
     color:rgb(199, 62, 28) !important;
 }
 header.masthead{
-    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(/img/bg-masthead.jpg);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../img/bg-masthead.jpg);
     height: 600px;
     background-size: cover;
     background-position: center;
